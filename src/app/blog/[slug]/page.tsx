@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return metadata({
     title: doc.title,
-    description: doc.desc,
+    description: doc.description,
     path: doc.permalink,
     // image: `${doc.thumbnailUrl}`,
   });

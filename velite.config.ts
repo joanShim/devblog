@@ -9,7 +9,7 @@ export default defineConfig({
       schema: s
         .object({
           title: s.string().max(99),
-          subTitle: s.string().max(99),
+          description: s.string().max(99),
           slug: s.string(),
           date: s.string(),
           // thumbnailUrl: s.string().max(99),

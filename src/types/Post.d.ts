@@ -3,6 +3,7 @@ export type Post = {
   tag: string;
   slug: string;
   title: string;
+  description: string;
   content: string;
   postTag: string[];
   subTitle: string;
